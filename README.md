@@ -1,6 +1,5 @@
 # MechaCar_Statistical_Analysis
 
-# MechaCar_Statistical_Analysis
 ## Overview
 The goal of this project is to help Jeremy and the data analytics team to review the production data for insights that might help MechaCar's production troubles. In order to achieve our goal, we are:
 1. Performing multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes,
