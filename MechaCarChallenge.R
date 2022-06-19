@@ -1,6 +1,7 @@
 > library(dplyr)
 > 
 > ### DELIVERABLE 1 ###
+--------------------------
 > # Import the data
 > mecha_car_mpg <- read.csv(file='MechaCar_mpg.csv',check.names = F, stringsAsFactors = F)
 > 
@@ -45,6 +46,7 @@ F-statistic: 22.07 on 5 and 44 DF,  p-value: 5.35e-11
 > 
 > 
 > ### DELIVERABLE 2 ###
+------------------------------
 > # Import the data
 > sus_coil <- read.csv(file='Suspension_Coil.csv', check.names = F, stringsAsFactors = F)
 > # Create a summary data frame
@@ -54,6 +56,7 @@ F-statistic: 22.07 on 5 and 44 DF,  p-value: 5.35e-11
 > 
 > 
 > ### DELIVERABLE 3 ###
+--------------------------------
 > # Determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch
 > t.test(sus_coil$PSI, mu = 1500)
 
